@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "iconClass": "flaticon-bed",
+    "title": "Literies",
+    "url": "/shop/list-no-sidebar",
+    "query": "Matelas"
+  },
+  {
+    "id": "2",
+    "iconClass": "flaticon-jacket",
+    "title": "Lingerie",
+    "url": "/shop/list-no-sidebar",
+    "query": "Drap plat"
+  },
+  {
+    "id": "3",
+    "iconClass": "flaticon-boss",
+    "title": "Nettoyage",
+    "url": "/shop/list-no-sidebar",
+    "query": "Manche et balai"
+  },
+  {
+    "id": "4",
+    "iconClass": "flaticon-herbal",
+    "title": "Entretien",
+    "url": "/shop/list-no-sidebar",
+    "query": "Chiffons"
+  }
+]

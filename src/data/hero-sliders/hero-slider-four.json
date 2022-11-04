@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "backgroundImage": "/assets/images/hero-slider/furniture-1.jpeg",
+    "subtitle": "",
+    "title": "Maco France",
+    "text": "Grossiste de Linge neuf et d'occasion pour les professionnels de l'hôtellerie et de la restauration depuis 2006",
+    "url": "/shop/list-no-sidebar"
+  },
+  {
+    "id": "2",
+    "backgroundImage": "/assets/images/hero-slider/furniture-2.jpeg",
+    "subtitle": "",
+    "title": "Articles de qualités",
+    "text": "Choisissez des articles qui vous correspondent.",
+    "url": "/shop/list-no-sidebar"
+  },
+  {
+    "id": "3",
+    "backgroundImage": "/assets/images/hero-slider/furniture-3.jpeg",
+    "subtitle": "",
+    "title": "Chambres à vivre",
+    "text": "Dénichez la perle rare pour vos chambres.",
+    "url": "/shop/list-no-sidebar"
+  }
+]
