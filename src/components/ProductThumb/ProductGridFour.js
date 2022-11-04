@@ -2,15 +2,14 @@ import { Fragment, useState } from "react";
 import Link from "next/link";
 import { Col } from "react-bootstrap";
 import ProductModal from "./elements/ProductModal";
-import { ProductRating } from "../Product";
-import { useDispatch } from "react-redux";
+import useMediaQuery from "../../hooks/useMediaQuery";
 
 const ProductGridFour = ({ product, addToCart, addToast }) => {
   const [modalShow, setModalShow] = useState(false);
-
+  const isMobile = useMediaQuery("(max-width:500px)");
   return (
     <Fragment>
-      <Col lg={3} sm={6}>
+      <Col lg={3} sm={6} className={isMobile && "space-mb--25"}>
         <div className="product-grid product-grid--style-two">
           <div className="product-grid__image">
             <Link
@@ -23,7 +22,7 @@ const ProductGridFour = ({ product, addToCart, addToast }) => {
                   alt="product_img1"
                   style={{
                     width: "100%",
-                    height: 260,
+                    height: isMobile ? "100%" : 260,
                   }}
                 />
               </a>

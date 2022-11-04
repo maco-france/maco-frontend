@@ -39,7 +39,7 @@ const ContactUs = () => {
                     <FaRegEnvelopeOpen />
                   </div>
                   <div className="contact-wrap__text">
-                    <span>Email Address</span>
+                    <span>Email</span>
                     <a href="mailto:info@macofrance.fr">info@macofrance.fr</a>
                   </div>
                 </div>
@@ -50,8 +50,8 @@ const ContactUs = () => {
                     <FaMobileAlt />
                   </div>
                   <div className="contact-wrap__text">
-                    <span>Phone</span>
-                    <p>01 43 00 89 91</p>
+                    <span>Téléphone</span>
+                    <p>01 43 00 20 77</p>
                   </div>
                 </div>
               </Col>

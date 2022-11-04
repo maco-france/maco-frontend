@@ -50,7 +50,7 @@ const FooterFour = () => {
                   </li>
                   <li>
                     <IoIosPhonePortrait />
-                    <p>01 43 00 89 91</p>
+                    <p>01 43 00 20 77</p>
                   </li>
                 </ul>
               </div>
