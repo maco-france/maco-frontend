@@ -8,10 +8,9 @@ import { BrandLogoThree } from "../../components/BrandLogo";
 import {
   ProductSliderEightWrapper,
   ProductSliderNine,
-  DealProductSlider
+  DealProductSlider,
 } from "../../components/ProductSlider";
 
-import heroSliderFiveData from "../../data/hero-sliders/hero-slider-five.json";
 import brandLogoData from "../../data/brand-logo/brand-logo-one.json";
 
 const ElectronicsOne = ({
@@ -23,12 +22,11 @@ const ElectronicsOne = ({
   saleProducts,
   saleProductsTwo,
   newProducts,
-  dealProducts
+  dealProducts,
 }) => {
   return (
     <LayoutFive navPositionClass="justify-content-start">
       {/* hero slider */}
-      <HeroSliderFive heroSliderData={heroSliderFiveData} />
       {/* tab product */}
       <ProductTabThree
         title="Exclusive Products"
@@ -74,7 +72,7 @@ const mapStateToProps = (state) => {
     trendingProducts: getProducts(products, "electronics", "popular", 10),
     saleProducts: getProducts(products, "electronics", "sale", 8),
     saleProductsTwo: getProducts(products, "electronics", "sale", 8),
-    dealProducts: getProducts(products, "electronics", "deal", 8)
+    dealProducts: getProducts(products, "electronics", "deal", 8),
   };
 };
 
