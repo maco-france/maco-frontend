@@ -8,19 +8,17 @@ import { ProductSliderOne } from "../../components/ProductSlider";
 import { TestimonialOne } from "../../components/Testimonial";
 import { IconBoxOne } from "../../components/IconBox";
 
-import heroSliderOneData from "../../data/hero-sliders/hero-slider-one.json";
 import testimonialOneData from "../../data/testimonials/testimonial-one.json";
 
 const FashionOne = ({
   featuredProducts,
   newProducts,
   bestSellerProducts,
-  saleProducts
+  saleProducts,
 }) => {
   return (
     <LayoutOne>
       {/* hero slider */}
-      <HeroSliderOne heroSliderData={heroSliderOneData} />
       {/* double banner */}
       <BannerTwo />
       {/* tab product */}
@@ -49,7 +47,7 @@ const mapStateToProps = (state) => {
     featuredProducts: getProducts(products, "fashion", "featured", 8),
     newProducts: getProducts(products, "fashion", "new", 8),
     bestSellerProducts: getProducts(products, "fashion", "popular", 8),
-    saleProducts: getProducts(products, "fashion", "sale", 8)
+    saleProducts: getProducts(products, "fashion", "sale", 8),
   };
 };
 

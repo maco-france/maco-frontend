@@ -9,7 +9,6 @@ import { ImageSliderOne } from "../../components/ImageSlider";
 import { ProductGridOne } from "../../components/ProductGrid";
 import { BannerFour } from "../../components/Banner";
 
-import heroSliderThreeData from "../../data/hero-sliders/hero-slider-three.json";
 import imageSliderData from "../../data/image-sliders/image-slider-one.json";
 import brandLogoData from "../../data/brand-logo/brand-logo-one.json";
 
@@ -17,7 +16,6 @@ const FurnitureOne = ({ featuredProducts, bestSellerProducts }) => {
   return (
     <LayoutThree navPositionClass="justify-content-center">
       {/* hero slider */}
-      <HeroSliderThree heroSliderData={heroSliderThreeData} />
       {/* icon box */}
       <IconBoxThree />
       {/* grid product */}
@@ -41,7 +39,7 @@ const mapStateToProps = (state) => {
   const products = state.productData;
   return {
     featuredProducts: getProducts(products, "furniture", "featured", 8),
-    bestSellerProducts: getProducts(products, "furniture", "popular", 8)
+    bestSellerProducts: getProducts(products, "furniture", "popular", 8),
   };
 };
 
