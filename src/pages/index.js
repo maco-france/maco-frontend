@@ -6,10 +6,8 @@ import { Row, Col } from "react-bootstrap";
 
 import heroSliderFourData from "../data/hero-sliders/hero-slider-four.json";
 import categorySliderData from "../data/category-sliders/category-slider-one.json";
-import { useSelector } from "react-redux";
 import { useGetProductsQuery } from "../redux/slices/products/api";
 import { BannerSix } from "../components/Banner";
-import { productsState } from "../redux/slices/products/selectors";
 
 const Index = () => {
   const { data, isLoading } = useGetProductsQuery();
