@@ -68,11 +68,11 @@ const FooterFour = () => {
               <div className="widget">
                 <h6 className="widget-title">Liens utiles</h6>
                 <ul className="widget-links">
-                  <li>
+                  {/*<li>
                     <Link href="/other/about-us">
                       <a>A Propos</a>
                     </Link>
-                  </li>
+                  </li>*/}
                   <li>
                     <Link href="/other/contact-us">
                       <a>Contact</a>
@@ -91,7 +91,7 @@ const FooterFour = () => {
               <p className="mb-3 mb-md-0 text-center text-md-left">
                 Copyright &copy; {new Date().getFullYear() + " "}. Fait avec{" "}
                 <FaHeart /> par{" "}
-                <a href="https://www.hasthemes.com" target="_blank">
+                <a href="https://qualiconnect.fr" target="_blank">
                   Qualiconnect
                 </a>
               </p>
