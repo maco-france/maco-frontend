@@ -42,7 +42,9 @@ const HeaderThree = ({ navPositionClass }) => {
           <div className="bottom-header-container d-flex justify-content-between align-items-center position-relative">
             {/* logo */}
             <Link href="/">
-              <a className="navbar-brand">Maco France</a>
+              <a className="navbar-brand">
+                <img src="/assets/images/macofrance.png" alt="maco-france" />
+              </a>
             </Link>
 
             {/* navigation */}

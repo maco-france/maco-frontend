@@ -318,6 +318,9 @@
   &:visited {
     color: $theme-color--default;
   }
+  img {
+    width: 80px;
+  }
 }
 
 .dark-skin .logo-light,

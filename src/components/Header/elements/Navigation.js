@@ -542,11 +542,11 @@ const Navigation = ({ positionClass }) => {
                     href={{
                       pathname: "/shop/list-no-sidebar",
                       query: {
-                        category: "Chiffons",
+                        category: "Drap plat",
                       },
                     }}
                   >
-                    <a>Chiffons</a>
+                    <a>Drap plat</a>
                   </Link>
                 </li>
                 <li>
@@ -554,11 +554,11 @@ const Navigation = ({ positionClass }) => {
                     href={{
                       pathname: "/shop/list-no-sidebar",
                       query: {
-                        category: "Sacs Poubelle",
+                        category: "Drap housse",
                       },
                     }}
                   >
-                    <a>Sacs Poubelle</a>
+                    <a>Drap housse</a>
                   </Link>
                 </li>
                 <li>
@@ -566,11 +566,11 @@ const Navigation = ({ positionClass }) => {
                     href={{
                       pathname: "/shop/list-no-sidebar",
                       query: {
-                        category: "Essuie Tout",
+                        category: "Housse de couette",
                       },
                     }}
                   >
-                    <a>Essuie Tout</a>
+                    <a>Housse de couette</a>
                   </Link>
                 </li>
                 <li>
@@ -578,11 +578,155 @@ const Navigation = ({ positionClass }) => {
                     href={{
                       pathname: "/shop/list-no-sidebar",
                       query: {
-                        category: "Papier hygiénique",
+                        category: "Taie d’oreiller",
                       },
                     }}
                   >
-                    <a>Papier hygiénique</a>
+                    <a>Taie d’oreiller</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Taie Taversin",
+                      },
+                    }}
+                  >
+                    <a>Taie Taversin</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Serviette éponge",
+                      },
+                    }}
+                  >
+                    <a>Serviette éponge</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Tapis de bain",
+                      },
+                    }}
+                  >
+                    <a>Tapis de bain</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Peignoir",
+                      },
+                    }}
+                  >
+                    <a>Peignoir</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Nappe",
+                      },
+                    }}
+                  >
+                    <a>Nappe</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Serviette de table",
+                      },
+                    }}
+                  >
+                    <a>Serviette de table</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Torchon",
+                      },
+                    }}
+                  >
+                    <a>Torchon</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Tablier",
+                      },
+                    }}
+                  >
+                    <a>Tablier</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Veste",
+                      },
+                    }}
+                  >
+                    <a>Veste</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Pantalon",
+                      },
+                    }}
+                  >
+                    <a>Pantalon</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Blouse",
+                      },
+                    }}
+                  >
+                    <a>Blouse</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={{
+                      pathname: "/shop/list-no-sidebar",
+                      query: {
+                        category: "Combinaison",
+                      },
+                    }}
+                  >
+                    <a>Combinaison</a>
                   </Link>
                 </li>
               </ul>

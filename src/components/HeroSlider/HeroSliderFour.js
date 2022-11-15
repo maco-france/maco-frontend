@@ -48,9 +48,6 @@ const HeroSliderFour = ({ heroSliderData }) => {
                       <Row className="justify-content-center">
                         <Col lg={7}>
                           <div className="hero-slider__content hero-slider__content--style-three overflow-hidden text-center">
-                            <h5 className="mb-3 font-weight-light bg-strip sub-title">
-                              {single.subtitle}
-                            </h5>
                             <h2 className="space-mb--20 title">
                               {single.title}
                             </h2>
