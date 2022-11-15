@@ -11,7 +11,9 @@ const BannerSix = () => {
               <Link
                 href={{
                   pathname: "/shop/list-no-sidebar",
-                  query: "Chiffons",
+                  query: {
+                    category: "Drap plat",
+                  },
                 }}
               >
                 <a className="hover-effect">
@@ -26,7 +28,7 @@ const BannerSix = () => {
                 <Link
                   href={{
                     pathname: "/shop/list-no-sidebar",
-                    query: "Chiffons",
+                    query: "Drap plat",
                   }}
                 >
                   En savoir plus
